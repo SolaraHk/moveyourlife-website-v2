@@ -1,0 +1,31 @@
+{
+  "name": "moveyourlife-website",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4178",
+    "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@phosphor-icons/react": "latest",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@rive-app/react-canvas": "^4.28.6",
+    "@splinetool/react-spline": "^4.1.0",
+    "@vitejs/plugin-react": "latest",
+    "animejs": "^4.4.1",
+    "gsap": "^3.15.0",
+    "lenis": "latest",
+    "lottie-react": "^2.4.1",
+    "motion": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "split-type": "^0.3.4",
+    "three": "^0.184.0",
+    "vite": "latest"
+  }
+}

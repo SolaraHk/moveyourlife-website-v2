@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://myl2.inexadesk.com/sitemap.xml

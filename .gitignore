@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.vite/
+coverage/
+.cache/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+.admin_key
+auth.json
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local tooling / machine config
+.DS_Store
+.claude/
+.cloudflared*.yml
+.vercel/
+.netlify/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Internal working notes / previews
+notes/
+preview*.png
+screenshots/
+debug-screenshots/
+*.bak
