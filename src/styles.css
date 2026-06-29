@@ -1929,9 +1929,9 @@ h3 {
 }
 
 .dark-photo img {
-  aspect-ratio: 4 / 3.4;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  object-position: center top;
+  object-position: center;
 }
 
 .footer {
@@ -2795,8 +2795,8 @@ h3 {
   }
 
   .dark-photo img {
-    height: 210px;
-    aspect-ratio: auto;
+    height: auto;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
   }
 

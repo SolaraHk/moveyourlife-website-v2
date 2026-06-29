@@ -614,7 +614,7 @@ function DarkCta() {
         <a className="btn btn-warm" href={WHATSAPP_BOOKING} target="_blank" rel="noreferrer"><WhatsappLogo size={18} weight="fill" /> WhatsApp 預約</a>
       </Reveal>
       <Reveal className="dark-photo" delay={0.08}>
-        <img src="/assets/crops/face-after-02.jpg" alt="Move Your Life 小顏後輪廓案例" />
+        <img src="/assets/logo-moveyourlife-hero.webp" alt="Move Your Life HK 標誌" />
       </Reveal>
     </section>
   );
