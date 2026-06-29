@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>尖沙咀無創徒手小顏術｜Move Your Life HK 小顏師 Jacky</title>
-    <meta name="description" content="尖沙咀預約制無創徒手小顏術。由國際得獎小顏師 Jacky 以定位微調手法，協助改善面型比例、輪廓線、水腫感與左右平衡。" />
+    <title>無創徒手小顏術 尖沙咀瘦面｜得獎小顏師 Jacky｜Move Your Life HK</title>
+    <meta name="description" content="尖沙咀預約制無創徒手小顏術（瘦面）。國際得獎小顏師 Jacky 以定位微調手法改善大小臉、下顎輪廓線、水腫與咬肌外擴；單次收費、無痛、不硬性推銷，真實前後個案可查。WhatsApp 即查面型方向。" />
     <meta name="theme-color" content="#3a2a22" />
     <link rel="canonical" href="https://moveyourlife.hk/" />
-    <meta property="og:title" content="尖沙咀無創徒手小顏術｜Move Your Life HK 小顏師 Jacky" />
-    <meta property="og:description" content="國際得獎小顏師 Jacky。尖沙咀預約制，單次收費，真實個案與好評見證。" />
+    <meta property="og:title" content="無創徒手小顏術 尖沙咀瘦面｜得獎小顏師 Jacky｜Move Your Life HK" />
+    <meta property="og:description" content="國際得獎小顏師 Jacky 主理｜尖沙咀預約制無創徒手小顏術（瘦面）。單次收費、無痛、不硬性推銷，真實前後個案與好評見證。" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://moveyourlife.hk/" />
     <meta property="og:site_name" content="Move Your Life HK" />
     <meta property="og:locale" content="zh_HK" />
     <meta property="og:image" content="https://moveyourlife.hk/assets/case-02.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="尖沙咀無創徒手小顏術｜Move Your Life HK 小顏師 Jacky" />
-    <meta name="twitter:description" content="國際得獎小顏師 Jacky。尖沙咀預約制，真實個案與好評見證。" />
+    <meta name="twitter:title" content="無創徒手小顏術 尖沙咀瘦面｜得獎小顏師 Jacky｜Move Your Life HK" />
+    <meta name="twitter:description" content="國際得獎小顏師 Jacky 主理｜尖沙咀預約制無創徒手小顏術（瘦面）。單次收費、無痛、不硬性推銷，真實前後個案與好評見證。" />
     <meta name="twitter:image" content="https://moveyourlife.hk/assets/case-02.jpg" />
     <link rel="icon" type="image/png" href="/assets/favicon-myl.png" />
     <link rel="apple-touch-icon" href="/assets/favicon-myl.png" />
@@ -31,9 +31,12 @@
           "alternateName": "無創徒手小顏術｜定位微調獨門手法",
           "url": "https://moveyourlife.hk/",
           "image": "https://moveyourlife.hk/assets/case-02.jpg",
-          "logo": "https://moveyourlife.hk/assets/logo-myl-gold.png",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://moveyourlife.hk/assets/logo-myl-gold.png"
+          },
           "description": "尖沙咀預約制無創徒手小顏術，由國際得獎小顏師 Jacky 以定位微調手法改善面型比例、輪廓線與水腫感。",
-          "telephone": "+852-6382-9196",
+          "telephone": "+85263829196",
           "priceRange": "$$",
           "currenciesAccepted": "HKD",
           "address": {
@@ -42,10 +45,13 @@
             "addressRegion": "Kowloon",
             "addressCountry": "HK"
           },
-          "areaServed": { "@type": "City", "name": "Hong Kong" },
+          "areaServed": { "@type": "AdministrativeArea", "name": "Hong Kong" },
+          "availableLanguage": [ "zh-Hant", "yue", "en" ],
           "sameAs": [ "https://www.instagram.com/moveyourlifehk" ],
           "founder": { "@id": "https://moveyourlife.hk/#jacky" },
-          "knowsAbout": [ "無創徒手小顏術", "面型分析", "輪廓線調整", "咬肌放鬆", "淋巴循環" ]
+          "employee": { "@id": "https://moveyourlife.hk/#jacky" },
+          "knowsAbout": [ "無創徒手小顏術", "面型分析", "輪廓線調整", "咬肌放鬆", "淋巴循環" ],
+          "makesOffer": [ { "@id": "https://moveyourlife.hk/#service-faceslim" } ]
         },
         {
           "@type": "Person",
@@ -60,28 +66,52 @@
           ]
         },
         {
+          "@type": "Service",
+          "@id": "https://moveyourlife.hk/#service-faceslim",
+          "name": "無創徒手小顏術",
+          "serviceType": "無創徒手小顏術 / 面型微調",
+          "provider": { "@id": "https://moveyourlife.hk/#business" },
+          "areaServed": { "@type": "AdministrativeArea", "name": "Hong Kong" },
+          "description": "預約制無創徒手小顏療程：面型分析、徒手定位微調，處理下顎、顴骨、輪廓線、水腫感與左右平衡。單次收費，不作硬性推銷。",
+          "audience": { "@type": "Audience", "audienceType": "想改善面型比例與輪廓線的人士" }
+        },
+        {
           "@type": "Course",
+          "@id": "https://moveyourlife.hk/#course-intro",
           "name": "小顏微調入門塑形班",
           "description": "3 天共 11 小時，適合零基礎、美容從業員及轉行人士。面骨分析、正位手法、流程實踐。",
           "provider": { "@id": "https://moveyourlife.hk/#business" },
+          "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "onsite", "courseWorkload": "P3D" },
           "offers": {
             "@type": "Offer",
             "price": "10500",
             "priceCurrency": "HKD",
-            "category": "教學班"
+            "category": "教學班",
+            "availability": "https://schema.org/PreOrder"
           }
         },
         {
           "@type": "Course",
+          "@id": "https://moveyourlife.hk/#course-champion",
           "name": "小顏微調國際冠軍班",
           "description": "3 天共 11 小時，適合已有基礎、希望進階／參賽／開店人士。冠軍思維、高級手法、商業落地，合格可申請 IFBC、SISA、K-Beauty、GPF、IQA 國際證書。",
           "provider": { "@id": "https://moveyourlife.hk/#business" },
+          "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "onsite", "courseWorkload": "P3D" },
           "offers": {
             "@type": "Offer",
             "price": "16500",
             "priceCurrency": "HKD",
-            "category": "教學班"
+            "category": "教學班",
+            "availability": "https://schema.org/PreOrder"
           }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://moveyourlife.hk/#website",
+          "url": "https://moveyourlife.hk/",
+          "name": "Move Your Life HK",
+          "inLanguage": "zh-Hant-HK",
+          "publisher": { "@id": "https://moveyourlife.hk/#business" }
         }
       ]
     }

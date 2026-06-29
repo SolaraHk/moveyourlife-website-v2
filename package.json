@@ -27,5 +27,8 @@
     "split-type": "^0.3.4",
     "three": "^0.184.0",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
   }
 }

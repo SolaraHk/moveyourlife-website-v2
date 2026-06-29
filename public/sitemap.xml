@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://moveyourlife.hk/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/hero-jacky-award-2026-fit.jpg</image:loc>
+      <image:title>小顏師 Jacky 2026 韓國 ABIL 無創小顏項目冠軍</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/international-event-jacky-2025.jpg</image:loc>
+      <image:title>小顏師 Jacky 2025 台灣 CBC 國際美業大賽示範</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-before-01.jpg</image:loc>
+      <image:title>無創徒手小顏術 面部左右平衡個案 療程前</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-after-01.jpg</image:loc>
+      <image:title>無創徒手小顏術 面部左右平衡個案 一次療程後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-before-02.jpg</image:loc>
+      <image:title>無創徒手小顏術 面部水腫改善個案 療程前</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-after-02.jpg</image:loc>
+      <image:title>無創徒手小顏術 面部水腫改善個案 一次療程後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-before-03.jpg</image:loc>
+      <image:title>無創徒手小顏術 下顎輪廓線個案 療程前</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-after-03.jpg</image:loc>
+      <image:title>無創徒手小顏術 下顎輪廓線個案 療程後</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-before-04.jpg</image:loc>
+      <image:title>無創徒手小顏術 即時小顏個案 療程前</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://moveyourlife.hk/assets/crops/face-after-04.jpg</image:loc>
+      <image:title>無創徒手小顏術 即時小顏個案 單次療程後</image:title>
+    </image:image>
   </url>
 </urlset>

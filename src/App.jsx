@@ -206,7 +206,7 @@ function Logo() {
   return (
     <a className="logo-lockup" href="#top" aria-label="Move Your Life home">
       <span className="logo-mark logo-mark-image">
-        <img src="/assets/logo-myl-gold.png" alt="" aria-hidden="true" />
+        <img src="/assets/logo-myl-gold.png" alt="" aria-hidden="true" width={520} height={297} />
       </span>
       <span>
         <strong>MOVE<br />YOUR LIFE</strong>
@@ -265,7 +265,7 @@ function Hero() {
         variants={heroStagger}
       >
         <motion.p variants={heroItem} className="mini-brand">Move Your Life</motion.p>
-        <motion.h1 variants={heroItem}>無創徒手小顏術</motion.h1>
+        <motion.h1 variants={heroItem}>無創徒手<br />小顏術</motion.h1>
         <motion.p variants={heroItem} className="subhead">由國際得獎小顏師 Jacky 主理，從面型比例與水腫感入手。</motion.p>
         <motion.div variants={heroItem} className="hero-actions">
           <motion.a whileTap={{ scale: 0.97 }} whileHover={{ y: -2 }} className="btn btn-dark" href={WHATSAPP_BOOKING} target="_blank" rel="noreferrer">立即預約</motion.a>
@@ -281,7 +281,11 @@ function Hero() {
       >
         <motion.img
           src="/assets/crops/hero-jacky-award-2026-fit.jpg"
-          alt="Jacky 手持獎盃，榮獲 2026 韓國 ABIL 亞洲美容聯盟無創小顏項目冠軍"
+          alt="小顏師 Jacky 手持 2026 韓國 ABIL 亞洲美容聯盟無創小顏項目冠軍獎盃"
+          width={1177}
+          height={1481}
+          fetchpriority="high"
+          decoding="async"
           style={reduce ? undefined : { y: imageY, scale: imageScale }}
         />
         <span className="hero-sheen" aria-hidden="true" />
@@ -345,7 +349,7 @@ function MethodSection() {
         </ul>
       </Reveal>
       <Reveal className="method-photo method-event-photo" delay={0.08}>
-        <img src="/assets/crops/international-event-jacky-2025.jpg" alt="Jacky 於 2025 CBC 國際美業技術賽事現場進行專業手法展示" />
+        <img src="/assets/crops/international-event-jacky-2025.jpg" alt="小顏師 Jacky 於 2025 台灣 CBC 國際美業大賽現場示範無創徒手小顏手法" width={1200} height={1500} loading="lazy" decoding="async" />
         <span>國際賽事現場｜專業手法展示</span>
       </Reveal>
     </section>
@@ -368,9 +372,9 @@ function BeforeAfterPin({ item, index }) {
         viewport={{ once: true, amount: 0.55 }}
         transition={{ duration: 1.9, delay: 0.5 + index * 0.18, ease: 'easeInOut', times: [0, 0.36, 0.74, 1] }}
       >
-        <img className="compare-before" src={item.before} alt={`Move Your Life ${item.title} 療程前`} />
+        <img className="compare-before" src={item.before} alt={`無創徒手小顏術 ${item.title}個案 療程前（眼部已遮蔽保護私隱）`} width={420} height={520} loading="lazy" decoding="async" />
         <div className="compare-after-mask">
-          <img className="compare-after" src={item.after} alt={`Move Your Life ${item.title} 療程後`} />
+          <img className="compare-after" src={item.after} alt={`無創徒手小顏術 ${item.title}個案 一次療程後（眼部已遮蔽保護私隱）`} width={420} height={520} loading="lazy" decoding="async" />
         </div>
         <span className="compare-label compare-label-before">Before</span>
         <span className="compare-label compare-label-after">After</span>
@@ -456,7 +460,7 @@ function CompareSection() {
           </ul>
         </Reveal>
         <Reveal className="compare-face" delay={0.05}>
-          <img src="/assets/crops/hero-face-after.jpg" alt="小顏後面型參考" />
+          <img src="/assets/crops/hero-face-after.jpg" alt="無創徒手小顏術後 面型比例與輪廓線參考示意" width={640} height={760} loading="lazy" decoding="async" />
           <span>面型分析後再處理</span>
         </Reveal>
         <Reveal className="compare-card" delay={0.1}>
@@ -579,10 +583,10 @@ function ClassSection() {
 }
 
 const reviewShots = [
-  { src: '/assets/reviews/review-01.webp', alt: 'Move Your Life 客人五星好評截圖：Jacky 非常專業，每個步驟後都明顯感受到臉部改變，朋友見面問是不是瘦了。' },
-  { src: '/assets/reviews/review-02.webp', alt: 'Move Your Life 客人五星好評截圖：只做兩次小顏效果已很明顯，對眼平衡返好多、面骨收返入去、線條順滑返。' },
-  { src: '/assets/reviews/review-03.webp', alt: 'Move Your Life 客人五星好評截圖：無痛、唔 hard sell、單次收費，做咗第四次輪廓 smooth 咗、下顎線突出咗。' },
-  { src: '/assets/reviews/review-04.webp', alt: 'Move Your Life 客人五星好評截圖：個鼻再高咗、直咗，成日俾人問係咪整容。' }
+  { src: '/assets/reviews/review-01.webp', w: 642, h: 739, alt: 'Move Your Life 客人五星好評截圖：Jacky 非常專業，每個步驟後都明顯感受到臉部改變，朋友見面問是不是瘦了。' },
+  { src: '/assets/reviews/review-02.webp', w: 586, h: 785, alt: 'Move Your Life 客人五星好評截圖：只做兩次小顏效果已很明顯，對眼平衡返好多、面骨收返入去、線條順滑返。' },
+  { src: '/assets/reviews/review-03.webp', w: 566, h: 776, alt: 'Move Your Life 客人五星好評截圖：無痛、唔 hard sell、單次收費，做咗第四次輪廓 smooth 咗、下顎線突出咗。' },
+  { src: '/assets/reviews/review-04.webp', w: 736, h: 551, alt: 'Move Your Life 客人五星好評截圖：個鼻再高咗、直咗，成日俾人問係咪整容。' }
 ];
 
 function Testimonials() {
@@ -597,7 +601,7 @@ function Testimonials() {
         {reviewShots.map((r, index) => (
           <Reveal className="review-quote" key={index} delay={index * 0.05}>
             <span className="review-stars" role="img" aria-label="五星好評">★★★★★</span>
-            <img className="review-shot" src={r.src} alt={r.alt} loading="lazy" />
+            <img className="review-shot" src={r.src} alt={r.alt} width={r.w} height={r.h} loading="lazy" decoding="async" />
           </Reveal>
         ))}
       </div>
@@ -614,7 +618,7 @@ function DarkCta() {
         <a className="btn btn-warm" href={WHATSAPP_BOOKING} target="_blank" rel="noreferrer"><WhatsappLogo size={18} weight="fill" /> WhatsApp 預約</a>
       </Reveal>
       <Reveal className="dark-photo" delay={0.08}>
-        <img src="/assets/logo-moveyourlife-hero.webp" alt="Move Your Life HK 標誌" />
+        <img src="/assets/logo-moveyourlife-hero.webp" alt="Move Your Life HK 無創徒手小顏術 品牌標誌" width={1024} height={768} loading="lazy" decoding="async" />
       </Reveal>
     </section>
   );
@@ -625,7 +629,7 @@ function Footer() {
     <footer className="footer">
       <Logo />
       <div className="footer-info">
-        <p>尖沙咀｜預約制｜6382 9196</p>
+        <p>尖沙咀｜預約制｜<a href="tel:+85263829196">6382 9196</a></p>
         <p>無創徒手小顏術｜真實個案｜教學班籌備中</p>
       </div>
       <div className="socials">
