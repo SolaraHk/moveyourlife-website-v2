@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://myl2.inexadesk.com/sitemap.xml
+Sitemap: https://moveyourlife.hk/sitemap.xml

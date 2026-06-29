@@ -1,0 +1,4 @@
+# Long-lived immutable cache for version-stamped (hashed) static assets.
+# HTML stays default so content updates propagate immediately.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
